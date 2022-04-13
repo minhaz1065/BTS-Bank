@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        
+        <h1 class="bts">Welcome to BTS Bank</h1>
+        <section class="transaction">
+            <div class="tranBox">
+                <h1>Deposite</h1>
+                <h1>$<span id="showDeposite">0</span></h1>
+            </div>
+            <div class="tranBox">
+                <h1>Balance</h1>
+                <h1>$<span id="showBalance">0</span></h1>
+            </div>
+            <div class="tranBox">
+                <h1>Withdraw</h1>
+                <h1>$<span id="showWithdraw">0</span></h1>
+            </div>
+        </section>
+
+        <section class="transaction">
+            <div class="inputBox">
+                <h1>Deposite</h1>
+                <input type="text" placeholder="Enter Deposite amount here" id="deposite">
+                <button id="depositeOK">ok</button>
+            </div>
+            <div class="inputBox">
+                <h1>Withdraw</h1>
+                <input type="text" placeholder="Enter Withdraw amount here" id="withdraw">
+                <button id="withdrawOK">ok</button>
+            </div>
+        </section>
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

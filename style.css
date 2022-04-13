@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    height: 700px;
+}
+
+.bts{
+    background-image: url("https://static.toiimg.com/thumb/msid-83544474,imgsize-370262,width-800,height-600,resizemode-75/83544474.jpg");
+    overflow: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px #ffffff;
+}
+
+h1{
+    text-align: center;
+}
+
+.transaction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tranBox{
+    margin: 10px;
+    padding: 20px 80px;
+    background-color: aqua;
+}
+
+.inputBox{
+    margin: 10px;
+    padding: 20px 100px;
+    background-color: pink;
+}
